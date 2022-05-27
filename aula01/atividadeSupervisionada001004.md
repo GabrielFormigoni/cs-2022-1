@@ -20,25 +20,25 @@ Outra questão importante é o padrão utilizado para as respostas de cada solic
 
 - HTTP GET: os retornos esperados são:
 
-   – 200 (OK): em caso de sucesso.
-   – 404 (not found): caso a entidade solicitada não seja encontrada.
+   - 200 (OK): em caso de sucesso.
+   - 404 (not found): caso a entidade solicitada não seja encontrada.
 
-– HTTP POST: os retornos esperados são:
+- HTTP POST: os retornos esperados são:
 
-   – 201 (created): um novo recurso foi criado com sucesso.
-   – 400 (bad request): a requisição contém dados inválidos.
-   – 422 (unprocessable entity): a requisição violou alguma regra de negócio da aplicação.
+   - 201 (created): um novo recurso foi criado com sucesso.
+   - 400 (bad request): a requisição contém dados inválidos.
+   - 422 (unprocessable entity): a requisição violou alguma regra de negócio da aplicação.
 
-– HTTP PUT: os retornos esperados são:
+- HTTP PUT: os retornos esperados são:
 
-   – 200 (OK): atualizado com sucesso.
-   – 400 (bad request): a requisição contém dados inválidos.
-   – 409 (conflit): não foi possível atualizar um recurso existente.
+   - 200 (OK): atualizado com sucesso.
+   - 400 (bad request): a requisição contém dados inválidos.
+   - 409 (conflit): não foi possível atualizar um recurso existente.
 
-– HTTP DELETE: os retornos esperados são:
+- HTTP DELETE: os retornos esperados são:
 
-   – 204 (not content): sucesso na remoção do recurso.
-   – 404 (not found): caso a entidade solicitada não seja encontrada.
+   - 204 (not content): sucesso na remoção do recurso.
+   - 404 (not found): caso a entidade solicitada não seja encontrada.
 
 Para que uma API seja considerada do tipo RESTful, ela precisa estar em conformidade com os seguintes critérios:
 
