@@ -16,7 +16,31 @@ REST APIs se comunicam por meio de HTTP requests para que possam realizar alguma
 
 Pra simplificar, quando um cliente faz uma solicitação usando uma API REST, essa API transfere uma representação do estado do recurso ao solicitante ou endpoint. Essa representação é entregue via HTTP utilizando alguns formatos, dentre eles, o mais popular sendo JSON, pelo fato de ele ser independente de qualquer outra linguagem e poder ser lido por máquinas e humanos. 
 
-Para que uma API seja considerada do tipo RESTful, ela precisa está em conformidade com os seguintes critérios:
+Outra questão importante é o padrão utilizado para as respostas de cada solicitação de serviço. São estas:
+
+- HTTP GET: os retornos esperados são:
+
+   – 200 (OK): em caso de sucesso.
+   – 404 (not found): caso a entidade solicitada não seja encontrada.
+
+– HTTP POST: os retornos esperados são:
+
+   – 201 (created): um novo recurso foi criado com sucesso.
+   – 400 (bad request): a requisição contém dados inválidos.
+   – 422 (unprocessable entity): a requisição violou alguma regra de negócio da aplicação.
+
+– HTTP PUT: os retornos esperados são:
+
+   – 200 (OK): atualizado com sucesso.
+   – 400 (bad request): a requisição contém dados inválidos.
+   – 409 (conflit): não foi possível atualizar um recurso existente.
+
+– HTTP DELETE: os retornos esperados são:
+
+   – 204 (not content): sucesso na remoção do recurso.
+   – 404 (not found): caso a entidade solicitada não seja encontrada.
+
+Para que uma API seja considerada do tipo RESTful, ela precisa estar em conformidade com os seguintes critérios:
 
 - Interface uniforme: Todas as API requests para o mesmo recurso devem seguir o mesmo padrão, não importando de onde esse recurso vier.
 
