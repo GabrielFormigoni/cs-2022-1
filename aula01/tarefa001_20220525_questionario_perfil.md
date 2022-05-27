@@ -1,7 +1,12 @@
 ## Tarefa 001 - 25/05/2022 - Questionário - Perfil Estudante
 
-1. Matrícula: 202004751
-2. Nome: Gabriel Formigoni dos Santos Neto
+1. Matrícula: 
+
+- 202004751
+
+2. Nome: 
+
+- Gabriel Formigoni dos Santos Neto
 
 3. Qual seu conhecimento/experiência em relação ao desenvolvimento de software?
 
