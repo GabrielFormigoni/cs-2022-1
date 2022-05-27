@@ -33,3 +33,8 @@ Para que uma API seja considerada do tipo RESTful, ela precisa está em conformi
 Entre as vantagens em se utilizar REST APIs, destaca-se: o fato de ocorrer uma separação entre cliente-servidor, a praticidade no acesso aos contratos da aplicação, a confiabilidade e segurança na aplicação, a sua alta escalabilidade para aplicações, principalmente nos modelos de microsserviços, o fato de ela ser multiplataforma, considerando que os dados podem retornar nos padrões XML e JSON, etc.
 
 Já dentre as desvantagens, temos que: é necessário se ter conhecimento dos padrões de projeto para o modelo REST API, a sua implementação é considerada “Lo-rest”, ou seja, suas aplicações disponibilizam apenas dois endpoints: HTTP GET e HTTP POST e, por fim, o fato de elas trabalharem de maneira assíncrona, o que pode causar sobrecarga nas solicitações.
+
+
+# Conclusão
+
+Tendo em vista os conceitos discutidos, assim como os grandes benefícios em se utilizar as REST APIs, temos que as REST API não só permitem a criação de websites e aplicações com maior rapidez e robustez, como também permitem que os dados sejam acessados, criados e atualizados sincronizadamente, sem comprometer a integridade das informações. Logo, percebe-se que essa área é muito importante, e a tendência é continuar sendo, no processo de desenvolvimento de software, especialmente se considerarmos o crescente número de interações em redes sociais, o avanço da internet das coisas e a praticidade e segurança no consumo de dados entre distintas aplicações.
