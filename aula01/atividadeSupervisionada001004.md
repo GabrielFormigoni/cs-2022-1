@@ -10,7 +10,7 @@
 
 Pra começar, uma API, que é uma sigla para application programming interface, ou “Interface de Programação de Aplicações”, pode ser entendida como um conjunto de regras que definem como aplicações ou aparelhos podem se comunicar e se conectar entre si. Já uma REST API, é uma API que segue os princípios REST, ou representational state transfer architectural style. Entre os benefícios oferecidos pelo REST, destaca-se o fato de ele garantir ao seus usuários uma grande liberdade e flexibilidade, o que fez com que as REST APIs emergissem como um dos melhores métodos para conectar aplicações e componentes em uma arquitetura de microsserviços.
 
-# Como funciona e alguns princípios
+# Como funciona
 
 REST APIs se comunicam por meio de HTTP requests para que possam realizar algumas operações, que são create, read, update e delete, também chamado de CRUD, com algum tipo de recurso. Por exemplo, uma REST API usaria um GET request para ler um registro, um POST request para criar um registro, um PUT request para atualizar um registro, e um DELETE request para deletá-lo. Todos os métodos HTTP podem ser utilizados com API calls. Uma REST API com um bom design se parece com um website rodando em um web browser com funcionalidade HTTP imbutida.
 
@@ -40,6 +40,10 @@ Outra questão importante é o padrão utilizado para as respostas de cada solic
    - 204 (not content): sucesso na remoção do recurso.
    - 404 (not found): caso a entidade solicitada não seja encontrada.
 
+Por fim, temos alguns outros itens importantes, como os Request headers e parâmetros que são essenciais em REST API calls, pelo fato de conterem infromações importantes como metadata, autorizações, uniform resource identifiers (URIs), cache, cookies, etc. Request headers e response headers, em conjunto com os convencionais HTTP status code, são muito utilizados dentro das REST APIs bem feitas.
+
+# Príncipios da arquitetura REST
+
 Para que uma API seja considerada do tipo RESTful, ela precisa estar em conformidade com os seguintes critérios:
 
 - Interface uniforme: Todas as API requests para o mesmo recurso devem seguir o mesmo padrão, não importando de onde esse recurso vier.
@@ -54,7 +58,7 @@ Para que uma API seja considerada do tipo RESTful, ela precisa estar em conformi
 
 # Vantagens e Desvantagens
 
-Entre as vantagens em se utilizar REST APIs, destaca-se: o fato de ocorrer uma separação entre cliente-servidor, a praticidade no acesso aos contratos da aplicação, a confiabilidade e segurança na aplicação, a sua alta escalabilidade para aplicações, principalmente nos modelos de microsserviços, o fato de ela ser multiplataforma, considerando que os dados podem retornar nos padrões XML e JSON, etc.
+Entre as vantagens em se utilizar REST APIs, destacam-se: o fato de ocorrer uma separação entre cliente-servidor, a praticidade no acesso aos contratos da aplicação, a confiabilidade e segurança na aplicação, a sua alta escalabilidade para aplicações, principalmente nos modelos de microsserviços, o fato de ela ser multiplataforma, considerando que os dados podem retornar nos padrões XML e JSON, etc.
 
 Já dentre as desvantagens, temos que: é necessário se ter conhecimento dos padrões de projeto para o modelo REST API, a sua implementação é considerada “Lo-rest”, ou seja, suas aplicações disponibilizam apenas dois endpoints: HTTP GET e HTTP POST e, por fim, o fato de elas trabalharem de maneira assíncrona, o que pode causar sobrecarga nas solicitações.
 
