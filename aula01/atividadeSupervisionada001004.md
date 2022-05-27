@@ -14,7 +14,7 @@ Pra começar, uma API, que é uma sigla para application programming interface, 
 
 REST APIs se comunicam por meio de HTTP requests para que possam realizar algumas operações, que são create, read, update e delete, também chamado de CRUD, com algum tipo de recurso. Por exemplo, uma REST API usaria um GET request para ler um registro, um POST request para criar um registro, um PUT request para atualizar um registro, e um DELETE request para deletá-lo. Todos os métodos HTTP podem ser utilizados com API calls. Uma REST API com um bom design se parece com um website rodando em um web browser com funcionalidade HTTP imbutida.
 
-Pra simplificar, quando um cliente faz uma solicitação usando uma API RESTful, essa API transfere uma representação do estado do recurso ao solicitante ou endpoint. Essa representação é entregue via HTTP utilizando alguns formatos, dentre eles, o mais popular sendo JSON, pelo fato de ele ser independente de qualquer outra linguagem e poder ser lido por máquinas e humanos. 
+Pra simplificar, quando um cliente faz uma solicitação usando uma API REST, essa API transfere uma representação do estado do recurso ao solicitante ou endpoint. Essa representação é entregue via HTTP utilizando alguns formatos, dentre eles, o mais popular sendo JSON, pelo fato de ele ser independente de qualquer outra linguagem e poder ser lido por máquinas e humanos. 
 
 Para que uma API seja considerada do tipo RESTful, ela precisa está em conformidade com os seguintes critérios:
 
