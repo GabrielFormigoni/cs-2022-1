@@ -86,9 +86,9 @@ git --version
 - Não, pois o -u adiciona apenas arquivos que já tenham sido criados.
 
 19. Qual o efeito da execução dos dois comandos abaixo, nesta ordem, em um dado repositório?
-**git reset --soft HEAD~1** Todos os arquivos modificados ficarão como mudanças a serem commitadas.
+- git reset --soft HEAD~1: Todos os arquivos modificados ficarão como mudanças a serem commitadas.
 
-**git reset --hard** O índice e a working tree serão resetados e quaisquer mudanças nos arquivos já rastreados desde o commit indicado serão descartadas.
+- git reset --hard: O índice e a working tree serão resetados e quaisquer mudanças nos arquivos já rastreados desde o commit indicado serão descartadas.
 - 
 
 20. Após o emprego de um ambiente integrado de desenvolvimento (IDE), é comum a criação de arquivos e diretórios. Qual o comando que podemos empregar para remover arquivos e diretórios _untracked_?
