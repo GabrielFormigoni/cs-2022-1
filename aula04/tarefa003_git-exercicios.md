@@ -87,6 +87,7 @@ git --version
 
 19. Qual o efeito da execução dos dois comandos abaixo, nesta ordem, em um dado repositório?
 **git reset --soft HEAD~1** Todos os arquivos modificados ficarão como mudanças a serem commitadas.
+
 **git reset --hard** O índice e a working tree serão resetados e quaisquer mudanças nos arquivos já rastreados desde o commit indicado serão descartadas.
 - 
 
