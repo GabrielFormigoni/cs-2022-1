@@ -4,37 +4,95 @@ Responda as questões abaixo (exercite os comandos do git correspondentes). Lemb
 
 
 1. Qual o comando para obter a versão instalada do Git?
+git --version
+
 2. Qual o efeito da execução de cada um dos comandos abaixo?
   a. git help
+  - Aparece uma lista com os comandos git mais comuns.
+
   b. git help checkout
+  - Abre uma página no navegador com um manual para se utilizar o git checkout.
+
   c. git help merge
+  - Abre uma página no navegador com um manual para se utilizar o git merge.
+
   d. git init
+  - Cria um repositório Git vazio ou reinicia um já existente.
+
   e. git add --all
+  - Coloca todos arquivos (novos, modificados e removidos) no index/stage.
+
   f. git add -u
+  - Coloca no Stage apenas arquivos modificados e removidos.
+
   g. git config -l
+  - Lista todos as configurações do úsuario
+
   h. git mv a.txt b.txt
+  - Muda o nome do arquivo de a.txt, pra b.txt.
+
   i. git reset --hard
+  - Reseta os commits, passando a exibir somente o último.
+
   j. git log -27
+  - mostra os últimos 27 commits.
+
 3. O fluxo “clássico” de interação com o Git é algo como “alterar um ou mais arquivos”, “acrescentar essas mudanças para serem contemplados no próximo commit” e, finalmente, executar um “commit”. Quais os comandos necessários para realizar os dois últimos “passos” desse fluxo?
+- git add e git commit.
+
 4. Qual o comando deve ser executado para identificar o que foi alterado desde o último “commit”?
+- git show.
+
 5. Em um dado repositório, arquivos simplesmente copiados para lá, ou seja, _untracked_, podem ser exibidos/identificados com que comando?
+- git status
+
 6. Qual o comando para efetuar um _commit_?
+- git commit.
+
 7. Qual o comando que devemos empregar para descartar mudanças ocorridas no arquivo teste.txt, por exemplo?
+- git reset teste.txt
+
 8. O que deve ser feito para que um determinado diretório do seu repositório seja ignorado pelo Git? Faça uma busca por **.gitignore**.
+- Deve-se criar um arquivo .gitignore e adicionar o nome do diretório em uma linha do arquivo.
+
 9. O que acontece se o seu repositório local for acidentalmente removido?
+- Todos os arquivos dele são excluídos. Essa ação pode ser revertida com os comandos git reset e git checkout.
+
 10. Como clonar um repositório remoto?
+- Utilizando o comando git clone.
+
 11. Em alguns cenários **git log** pode produzir extensos resultados. Se houver interesse em visualizar o histórico de um repositório, onde cada mudança é fornecida exatamente em uma única linha, qual o comando que deve ser empregado?
+- git log -1.
+
 12. Em qual arquivo o Git armazena informações de configuração empregadas por usuário?
+- No arquivo .gitconfig.
+
 13. Qual o comando para criar um repositório local?
+- git init "nome repositório".
+
 14. Qual o nome do diretório criado pelo Git quando se executa o comando **git init**?
+- .git
+
 15. Qual o comando para adicionar todos os arquivos modificados? (Aqueles para os quais **git status** identificam como **modified**?)
+- git add -u
+
 16. O Git faz uso do valor de hash conhecido por SHA1. O que isto significa? Qual o propósito? O que é SHA1?
+- O git usa SHA com o propósito de segurança e de identificação de alterações nos arquivos. SHA1 é um algoritmo que recebe alguns dados como entrada e gera uma string única de 40 caracteres através desses dados. Ou seja, nenhuma outra entrada de dados deveria produzir o mesmo hash. Porém, caso a mesma entrada de dados seja usada, ela sempre irá produzir o mesmo hash. Isso é extremamente importante, pois o número de revisão do git é nessa hash SHA1, então mesmo que várias pessoas estejam usando o mesmo repositório, se o número de revisão for igual para todas elas, isso significa que todos estão trabalhando naquele mesmo conjunto de arquivos. Isso traz maior segurança, pois se qualquer alteração for realizada em qualquer bit que seja, ou mesmo durante a transferência dos arquivos, se ocorrer qualquer perda de bits, o git irá identificar.
+
 17. Qual a palavra para indicar o último _commit_ em vez do valor de hash SHA1 correspondente?
+- 
+
 18. Quando se cria dois arquivos usando um editor de texto qualquer e, na sequência, executamos o comando **git add -u**, os dois arquivos criados passam de _untracked_ para _new file_?
+- Não, pois o -u adiciona apenas arquivos que já tenham sido criados.
+
 19. Qual o efeito da execução dos dois comandos abaixo, nesta ordem, em um dado repositório?
-**git reset --soft HEAD~1**
-**git reset --hard**
+**git reset --soft HEAD~1** Todos os arquivos modificados ficarão como mudanças a serem commitadas.
+**git reset --hard** O índice e a working tree serão resetados e quaisquer mudanças nos arquivos já rastreados desde o commit indicado serão descartadas.
+- 
+
 20. Após o emprego de um ambiente integrado de desenvolvimento (IDE), é comum a criação de arquivos e diretórios. Qual o comando que podemos empregar para remover arquivos e diretórios _untracked_?
+- git clean -fd
+
 21. Qual o nome do arquivo no qual podemos inserir a indicação para o Git de arquivos e diretórios a serem ignorados?
 22. Quando se cria o arquivo _MinhaClasse.class_ em um dado diretório e desejamos que arquivos com a extensão .class, como neste caso, sejam ignorados por todos os membros de uma equipe que estão contribuindo com um dado projeto, como devemos proceder?
 23. jQuery é uma famosa biblioteca em JavaScript. Consulte detalhes em [jQuery](http://jquery.com). O repositório correspondente encontra-se em [gitRep](https://github.com/jquery/jquery.git). Faça o clone deste repositório.
@@ -59,15 +117,3 @@ INSTRUÇÕES:
 1. No seu repositório pessoal, criar a pasta aula04.
 2. Commitar este arquivo respondido nesta pasta.
 3. A data limite para concluir esta tarefa é dia 07/06/2021, as 23h59min.
-
-
-
-
-
-
-
-
-
-
-
-</DIV/>
