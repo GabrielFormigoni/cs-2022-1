@@ -114,28 +114,28 @@ git --version
 - git tag -l "2.0*"
 
 28. Qual o efeito do comando **git tag -a 3.4-gold -m “minha versão ouro”**?
-- Mesmo efeito da tag, com a mensagem de tagging “minha versão ouro”.
+- Mesmo efeito da tag,com a mensagem de tagging “minha versão ouro”.
 
 29. Após executado o comando acima, qual o efeito de **git show 3.4-gold**?
-- 
+- Mostra os dados da tag e o commit que que foi etiquetado.
 
 30. O que o comando **git push origin 3.4-gold** teria como efeito?
-- 
+- Atualiza o repositório com a tag 3.4-gold.
 
 31. Após executar um commit, qual o efeito de **git commit --amend**?
-- 
+- Permite alterar o último commit.
 
 32. Após executar **git add x.txt**, qual o efeito de **git reset HEAD x.txt**?
-- 
+- As adições e mudanças no arquivo não são comitadas.
 
 33. Após alterar o conteúdo de um arquivo committed em passo anterior, qual o efeito do comando **git checkout -- a.txt**?
-- 
+- Nenhum efeito, pois o arquivo já foi commitado.
 
 34. Qual a diferença entre os comandos **git reset HEAD a.txt** e **git checkout -- a.txt**?
-- 
+- O primeiro irá resetar a HEAD para o estado identificado para o arquivo x.txt, enquanto o segundo irá restaurar o arquivo a.txt da working tree.
 
 35. Veja como interpretar o resultado de git diff [aqui](https://medium.com/therobinkim/how-to-read-a-git-diff-6c87a9dc47c5). Execute, em um dos seus projetos, o comando **git diff HEAD~1 HEAD** e certifique-se de que entende o resultado apresentado.
-- 
+- O git diff mostra as mudanças entre commits, ramificações, arquivos e outros. As primeiras linhas mostram algumas informações relacionadas ao comando, depois temos o número de linhas antes e depois, e as mudanças em si, passando por cada arquivo.
 
 
 
