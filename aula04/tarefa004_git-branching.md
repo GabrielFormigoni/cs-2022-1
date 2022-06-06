@@ -16,4 +16,3 @@ INSTRUÇÕES:
 2. Commitar este arquivo respondido nesta pasta.
 3. A data limite para concluir esta tarefa é dia 07/06/2021, as 23h59min.
 
-</DIV/>

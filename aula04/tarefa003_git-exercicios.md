@@ -137,6 +137,3 @@ git --version
 35. Veja como interpretar o resultado de git diff [aqui](https://medium.com/therobinkim/how-to-read-a-git-diff-6c87a9dc47c5). Execute, em um dos seus projetos, o comando **git diff HEAD~1 HEAD** e certifique-se de que entende o resultado apresentado.
 - O git diff mostra as mudanças entre commits, ramificações, arquivos e outros. As primeiras linhas mostram algumas informações relacionadas ao comando, depois temos o número de linhas antes e depois, e as mudanças em si, passando por cada arquivo.
 
-
-
-
