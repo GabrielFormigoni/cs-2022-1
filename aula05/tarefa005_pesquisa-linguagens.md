@@ -16,6 +16,22 @@
 
 # Javascript
 
+JavaScript é uma linguagem de programação de alto nível desenvolvida com o objetivo inicial de ser executada em navegadores e manipular comportamentos de páginas web. É considerada uma das mais importantes tecnologias voltadas para o front-end e, unindo-se ao trio HTML, CSS e PHP, formam um grupo de linguagens que abrangem praticamente todas as exigências do desenvolvimento de uma página completa, dinâmica e com boa performance.
+
+Entre suas principais características, destacam-se o fato de ser de fácil aprendizado, orientada a objetos, e baseada em protótipos e em scripts, que tornam possível transformar páginas estáticas em dinâmicas. Além disso, o javascript é uma linguagem de programação client-side, ou seja, é executada do lado do usuário, mais especificamente pelo navegador utilizado por este usuário, o que significa dizer que todas as suas ações são processadas na máquina de quem as utiliza, sem a necessidade de enviá-las a nenhum outro ambiente, tornando as respostas imediatas.
+
+É utilizada em diversos setores, como: Desenvolvimento web e mobile, criação de sistemas back-end, criação de jogos, etc.
+
+Exemplo de um código simples que multiplica 2 números, em Javascript:
+
+~~~
+function multiplica(num1, num2) {
+  let resultado = num1 * num2;
+  return resultado;
+}
+
+multiplica(2, 3)
+~~~
 
 # Python
 
@@ -38,5 +54,5 @@ for i in range(50):
   star.forward(100)
   star.right(144) 
   
-  turtle.done()
-  ~~~
+turtle.done()
+~~~
