@@ -4,7 +4,76 @@
 
 # Kotlin
 
+### Introdução
 
+Kotlin é uma linguagem de programação criada em 2011 pela JetBrains, empresa conhecida pelas IDEs comercializadas. Esta linguagem recebeu o nome de uma ilha russa situada proximo a costa de Sao Petersburgo, onde a equipe Kotlin reside.
+
+Em julho de 2011 a JetBrains revelou que estava trabalhando em uma nova linguagem (Kotlin) com o objetivo de suprir caracter´ısticas que nao eram encontradas em outras. No ano seguinte, o projeto Kotlin foi colocado sob a licença Apache de codigo aberto. Porem, apenas em 2016 foi lançada a primeira versão estável.
+
+Aos poucos, ela foi conquistando seu lugar na comunidade de desenvolvedores de aplicativos Android, muito devido a sua qualidade e as ferramentas e IDEs que a atendem. E tambem, talvez um dos principais fatores, ela possui 100% de interoperabilidade com o Java. Ou seja, 100% compatível.
+
+Contudo, a grande notıcia veio em 2017, no Google I/O 17. Onde os engenheiros do Google Android anunciaram a Kotlin como a mais nova linguagem oficial da plataforma.
+
+A linguagem teve fortes influencias de Scala e se pensou muito em interopibilidade com o Java, tanto que e possível misturar codigo Java com Kotlin e vice-versa.
+
+### A linguagem no mercado
+
+A maioria dos desenvolvedores Kotlin ainda usa a linguagem para desenvolver aplicac¸oes para Android e aplicações no lado do servidor. Mais de 10% usam o Kotlin para o desenvolvimento multiplataformas para dispositivos moveis, e esse número continua crescendo.
+
+Como o Kotlin e uma linguagem multiplataforma, ele também é usado por um numero significativo de desenvolvedores para outros tipos de desenvolvimento de software e ciencia de dados.
+
+Isso implica na ideia de que as oportunidades de trabalho para desenvolvedores Android nunca faltarao e, para deixar as coisas ainda melhores, o salário médio de um profissional da area é de R$ 4.670.
+
+Atualmente, no mercado de trabalho, e dif ´ ´ıcil encontrar profissionais especializados em Kotlin. Em muitos casos, as empresas acabam contratando especialistas de Java, pois a curva de aprendizado entre as duas linguagens e suave.
+
+Portanto, ter o conhecimento na linguagem e ser um desenvolvedor Kotlin Android e um grande diferencial e a garantia de uma estabilidade profissional e financeira em longo prazo.
+
+Para ser um profissional Kotlin de sucesso, e necessário estar sempre atento as atualizac¸oes das linguagens, al ˜ em das mudanc¸as das ferramentas e plataformas, considerando a constante evolução da tecnologia.
+
+Como qualquer habilidade, isso requer muito treino e persistencia. Quando você acha que ja sabe o bastante, percebe que sempre ha o que melhorar quando o assunto é habilidade técnica. No entanto, todos esses esforços valem a pena, considerando o futuro do trabalho e a ascensao contínua da area de programação.
+
+### Exemplos de alguns apps desenvolvidos com o Kotlin
+
+A lista e abrangente e envolve diversos setores, que vao desde a rede social de compartilhamento de fotos ”Pinterest”, até a famosa empresa multinacional americana prestadora de serviços eletronicos na area do transporte privado urbano, amplamente utilizada no Brasil e no resto do mundo ”Uber”.
+
+Nesse contexto, percebe-se como se torna cada vez mais interessante se investir em Kotlin, assim como as grandes oportunidades advindas do seu aprendizado, tendo em vista que grandes empresas estao começando a adotá-lo, e que já existem apps muito conhecidos e que chegam a milhoes de downloads no Google Play, desenvolvidos nessa linguagem.
+
+### Características
+
+Kotlin conta com sintaxe e semantica com algumas características bem peculiares e interessantes ao desenvolvedor, tais como: Interoperabilidade, Null Safety, Extension Methods, Data class e Default arguments.
+
+Em Kotlin, variaveis podem ser declaradas como var e como val. Variáveis declaradas como val sao constantes, ou seja, n ˜ ao podem ter seu valor redefinido, podendo ser usado apenas para leitura apos a primeira atribuic¸ ´ ao. Em contrapartida, vari ˜ aveis definidas como var podem ter seus valores redefinidos normalmente.
+
+Outro ponto que vale ressaltar, na declaração da variável não é necessário especificar o tipo, caso o valor esteja sendo atribu´ıdo no ato da declaração da variável. Ou seja, trata-se de uma linguagem tipada, mas que nessa situaçao especíıfica reconhece o tipo do dado pelo dado que foi inserido na variavel. Uma vez que a variável recebeu um valor daquele tipo, o tipo da variavel não pode ser mudado.
+
+Os tipos basicos de dados em Kotlin são os mesmos dos tipos de dados básicos da maioria das linguagens de programação. Esses são: int, string, float e Boolean.
+
+Os operadores também seguem o padrão, sendo:
+• ”==”: igualdade;
+• ”!=”: diferenc¸a;
+• ”>”: maior que;
+• ”<”: menor que;
+• ”>=”: maior ou igual;
+• ”<=”: menor ou igual.
+• ”&&”: operador ”e”;
+• ”||”: operador ”ou;
+• ”!”: operador ”nao”.
+
+### Vantagens e Desvantagens
+
+Segundo a propria JetBrains, as principais vantagens do Kotlin são:
+
+• Concisao: é possível realizar tarefas com poucas sentenças, gerando assim uma maior redigibilidade, especialmente para a criação de classes POJO e no uso de expressoes lambda.
+
+• Segurança: um dos erros de programação mais comuns, a dereferência de pointeiro nulo, ou NullPointerExceptionno Java e evitado graças a chamada ao chamado Null Safety previamente tratado neste trabalho. Dessa forma, a linguagem alcança uma maior confiabilidade.
+
+• Produtividade e interoperabilidade: como o Kotlin e 100% compatível com o ecossitema JVM, ou seja, e possível utilizar suas principais bibliotecas e frameworks, como o Spring, Maven, Gradle e o JUnit 5.
+
+Os anos de desenvolvimento e avanc¸o da computac¸ao e da engenharia de software mostraram que nao existe ferramenta perfeita ou otima para todos os casos. Da mesma forma, a linguagem Kotlin não é perfeita e possui algumas desvantagems, tais como:
+
+• Menor comunidade: o Kotlin e uma linguagem relativamente recente e possui uma comunidade menor do que as de outras linguagens. Essa e certamente uma duas principais desvantagens, pois impacta numa menor abundancia de materiais para aprendizagem e profissionais para contratação,principalmente se comparado ao Java.
+
+• Diferenças com o Java: apesar de ser compatível com o ecossitema JVM, o Kotlin como linguagem e substancialmente diferente do Java, o que pode levar a tempo razoavel de adaptação por parte de desenvolvedores Java que desejam aprender Kotlin.
 
 # C
 
