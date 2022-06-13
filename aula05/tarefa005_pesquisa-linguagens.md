@@ -24,11 +24,11 @@ Como o Kotlin e uma linguagem multiplataforma, ele também é usado por um numer
 
 Isso implica na ideia de que as oportunidades de trabalho para desenvolvedores Android nunca faltarao e, para deixar as coisas ainda melhores, o salário médio de um profissional da area é de R$ 4.670.
 
-Atualmente, no mercado de trabalho, e dif ´ ´ıcil encontrar profissionais especializados em Kotlin. Em muitos casos, as empresas acabam contratando especialistas de Java, pois a curva de aprendizado entre as duas linguagens e suave.
+Atualmente, no mercado de trabalho, e difícil encontrar profissionais especializados em Kotlin. Em muitos casos, as empresas acabam contratando especialistas de Java, pois a curva de aprendizado entre as duas linguagens e suave.
 
 Portanto, ter o conhecimento na linguagem e ser um desenvolvedor Kotlin Android e um grande diferencial e a garantia de uma estabilidade profissional e financeira em longo prazo.
 
-Para ser um profissional Kotlin de sucesso, e necessário estar sempre atento as atualizac¸oes das linguagens, al ˜ em das mudanc¸as das ferramentas e plataformas, considerando a constante evolução da tecnologia.
+Para ser um profissional Kotlin de sucesso, e necessário estar sempre atento as atualizac¸oes das linguagens, além das mudanças das ferramentas e plataformas, considerando a constante evolução da tecnologia.
 
 Como qualquer habilidade, isso requer muito treino e persistencia. Quando você acha que ja sabe o bastante, percebe que sempre ha o que melhorar quando o assunto é habilidade técnica. No entanto, todos esses esforços valem a pena, considerando o futuro do trabalho e a ascensao contínua da area de programação.
 
@@ -42,22 +42,22 @@ Nesse contexto, percebe-se como se torna cada vez mais interessante se investir 
 
 Kotlin conta com sintaxe e semantica com algumas características bem peculiares e interessantes ao desenvolvedor, tais como: Interoperabilidade, Null Safety, Extension Methods, Data class e Default arguments.
 
-Em Kotlin, variaveis podem ser declaradas como var e como val. Variáveis declaradas como val sao constantes, ou seja, n ˜ ao podem ter seu valor redefinido, podendo ser usado apenas para leitura apos a primeira atribuic¸ ´ ao. Em contrapartida, vari ˜ aveis definidas como var podem ter seus valores redefinidos normalmente.
+Em Kotlin, variaveis podem ser declaradas como var e como val. Variáveis declaradas como val sao constantes, ou seja, não podem ter seu valor redefinido, podendo ser usado apenas para leitura apos a primeira atribuição. Em contrapartida, variáveis definidas como var podem ter seus valores redefinidos normalmente.
 
-Outro ponto que vale ressaltar, na declaração da variável não é necessário especificar o tipo, caso o valor esteja sendo atribu´ıdo no ato da declaração da variável. Ou seja, trata-se de uma linguagem tipada, mas que nessa situaçao especíıfica reconhece o tipo do dado pelo dado que foi inserido na variavel. Uma vez que a variável recebeu um valor daquele tipo, o tipo da variavel não pode ser mudado.
+Outro ponto que vale ressaltar, na declaração da variável não é necessário especificar o tipo, caso o valor esteja sendo atribuído no ato da declaração da variável. Ou seja, trata-se de uma linguagem tipada, mas que nessa situaçao especíıfica reconhece o tipo do dado pelo dado que foi inserido na variavel. Uma vez que a variável recebeu um valor daquele tipo, o tipo da variavel não pode ser mudado.
 
 Os tipos basicos de dados em Kotlin são os mesmos dos tipos de dados básicos da maioria das linguagens de programação. Esses são: int, string, float e Boolean.
 
 Os operadores também seguem o padrão, sendo:
-• ”==”: igualdade;
-• ”!=”: diferenc¸a;
-• ”>”: maior que;
-• ”<”: menor que;
-• ”>=”: maior ou igual;
-• ”<=”: menor ou igual.
-• ”&&”: operador ”e”;
-• ”||”: operador ”ou;
-• ”!”: operador ”nao”.
+* ”==”: igualdade;
+* ”!=”: diferenc¸a;
+* ”>”: maior que;
+* ”<”: menor que;
+* ”>=”: maior ou igual;
+* ”<=”: menor ou igual.
+* ”&&”: operador ”e”;
+* ”||”: operador ”ou;
+* ”!”: operador ”nao”.
 
 ### Vantagens e Desvantagens
 
@@ -74,6 +74,10 @@ Os anos de desenvolvimento e avanc¸o da computac¸ao e da engenharia de softwar
 • Menor comunidade: o Kotlin e uma linguagem relativamente recente e possui uma comunidade menor do que as de outras linguagens. Essa e certamente uma duas principais desvantagens, pois impacta numa menor abundancia de materiais para aprendizagem e profissionais para contratação,principalmente se comparado ao Java.
 
 • Diferenças com o Java: apesar de ser compatível com o ecossitema JVM, o Kotlin como linguagem e substancialmente diferente do Java, o que pode levar a tempo razoavel de adaptação por parte de desenvolvedores Java que desejam aprender Kotlin.
+
+### Conclusão
+
+Com base no que foi falado acima, percebe-se que o Kotlin é uma linguagem recente, e que por isso possui um grande potencial de crescimento e pode oferecer boas oportunidades para quem o aprender. É simples e possui interoperabilidade com o Java, o que a torna mais atrativa ainda. Com isso em mente, é importante se destacar que o Kotlin é um recurso complementar e um bônus para o desenvolvedor Android poder codificar de forma eficiente, com muito mais desempenho e de forma amigável, e ao se pensar a médio prazo, é provavél que a maioria dos aplicativos Android sejam desenvolvidos utilizando apenas o Kotlin, mas a chance disso acontecer em um futuro próximo é muito pequena, logo o Kotlin ficará cada vez mais popular com o passar do tempo, oferecendo ainda mais oprtunidades para aqueles que a dominarem e já estiverem a utilizando a algum tempo. 
 
 # C
 
