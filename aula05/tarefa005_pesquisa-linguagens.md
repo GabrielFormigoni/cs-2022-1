@@ -27,7 +27,8 @@ Entre as suas principais vantagens, destaca-se o fato de ser fácil de aprender,
 
 Exemplo de um código simples que faz uma tartaruga desenhar uma estrela:
 
-**<code>import turtle
+<code>
+import turtle
 
 star = turtle.Turtle();
 star.shape('turtle')
@@ -37,4 +38,5 @@ for i in range(50):
   star.forward(100)
   star.right(144) 
   
-  turtle.done()</code>**
+  turtle.done()
+  </code>**
