@@ -59,6 +59,14 @@ Os operadores também seguem o padrão, sendo:
 * ”||”: operador ”ou;
 * ”!”: operador ”nao”.
 
+Exemplo de uma função que realiza uma soma em Kotlin:
+
+~~~
+fun soma(a: Int, b: Int): Int {
+    return a + b
+}
+~~~
+
 ### Vantagens e Desvantagens
 
 Segundo a propria JetBrains, as principais vantagens do Kotlin são:
