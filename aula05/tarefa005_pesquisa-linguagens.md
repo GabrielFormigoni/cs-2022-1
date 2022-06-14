@@ -89,7 +89,47 @@ Com base no que foi falado acima, percebe-se que o Kotlin é uma linguagem recen
 
 # C
 
+Apesar de ser uma linguagem considerada antiga, criada em 1972 e com o propósito exclusivo de ser usada no desenvolvimento de uma nova versão do sistema operacional Unix, a linguagem C ainda é uma das mais populares do mercado devido às diversas vantagens que apresenta.
 
+Pelo fato de ter se popularizado na década de 80, é difícil encontrar arquiteturas para as quais não existam compiladores para a C, o que garante o seu elevado nível de portabilidade. Outra grande vantagens dessa linguagem é a capacidade de gerar códigos rápidos, ou seja, com um tempo de execução baixo, o que implica em uma estrutura simples e flexível, motivo pelo qual a C poder ser usada em diversos tipos de projeto, como a criação de aplicativos, sistemas operacionais, drivers, etc.
+
+Uma curiosa sobre a linguagem C é o fato de ela ter originado outras, como o C++, Objective C e o C#.
+
+Todo programa escrito em C é iniciado com a inclusão das bibliotecas, feita pelo comando “#include”. Entre as principais bibliotecas, temos a stdio.h, math.h e stdlib.h.
+
+Exemplo de código em C:
+
+~~~
+#include <stdio.h> 
+
+int Soma(int a, int b)  
+
+{
+
+   int resultado;     
+   resultado = a + b;
+   return resultado;
+
+}
+
+int main()
+
+{
+
+int a, b, resultadoDaSoma;
+
+a = 10;
+
+b = 12;
+
+resultadoDaSoma = Soma(a,b); // a variável resultadoDaSoma recebe o valor de retorno da função Soma
+
+ printf("A soma de %d com %d é %d", a,b,resultadoDaSoma); 
+
+ return 0;
+
+}
+~~~
 
 # Java
 
