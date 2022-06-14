@@ -119,10 +119,9 @@ int main()
 int a, b, resultadoDaSoma;
 
 a = 10;
+b =12;
 
-b = 12;
-
-resultadoDaSoma = Soma(a,b); // a variável resultadoDaSoma recebe o valor de retorno da função Soma
+resultadoDaSoma = Soma(a,b);
 
  printf("A soma de %d com %d é %d", a,b,resultadoDaSoma); 
 
@@ -133,7 +132,43 @@ resultadoDaSoma = Soma(a,b); // a variável resultadoDaSoma recebe o valor de re
 
 # Java
 
+O Java é uma linguagem de programação orientada a objetos e é bastante utilizado no desenvolvimento de aplicações WEB e Mobile. Foi criada em 1995 e posteriormente, mais especificamente em 2008, adquirido pela Oracle e vem crescendo bastante desde então no mercado de tecnologia.
 
+O código do Java precisa ser compilado, cria aplicações executadas baseada na sua máquina virtual (JVM) e é altamente tipada.
+
+Entre as principais funcionalidades e características do Java, é válido destacar algumas: 
+* Orientada a Objetos: Tudo que é desenvolvido dentro da linguagem Java faz a utilização de classes e objetos
+* Independente de plataforma: Isso é possibilitado através de um emulador conhecido como a Máquina Virtual Java (JVM) que ajuda a executar sistemas baseados em Java.
+* Simples: O Java possui regras muito bem definidas que facilitam bastante o dia a dia no desenvolvimento de software.
+* Tipada: usa variáveis com tipos específicos. 
+* Compilada: O código de um programa escrito em Java é compilado para uma forma intermediária de código denominada bytecode, que é interpretada pela JVM (Java Virtual Machine) em qualquer máquina.
+* Imperativa: É o desenvolvedor que diz como é o quê exatamente um programa deverá realizar.
+* JDK (Java Development Kit): JDK é a sigla para Java Development Kit, que é um conjunto de utilitários que permite criar sistemas de software para a plataforma Java.
+* JRE  (Java Runtime Environment): Já JRE é a sigla para Java Runtime Environment, que fornece as bibliotecas padrões do Java para o JDK compilar o código e para a JVM executar o programa.
+
+Exemplo de soma em Java:
+
+~~~
+import javax.swing.JOptionPane;
+ 
+public class Soma {​
+ 
+public static void main(String args[]) {
+ 
+ int soma;
+ int num1 = 0;
+ int num2 = 0;​
+ 
+ num1 = Integer.parseInt(JOptionPane.showInputDialog(null,"Digite um numero:"));​
+ num2 = Integer.parseInt(JOptionPane.showInputDialog(null,"Digite outro numero:"));​
+ 
+ 
+ soma =  num1 + num2; 
+
+ JOptionPane.showMessageDialog(null,"Soma: " + soma);
+}​
+}
+~~~
 
 # Javascript
 
