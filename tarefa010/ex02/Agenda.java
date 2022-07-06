@@ -1,4 +1,3 @@
-package ex02;
 
 import java.util.ArrayList;
 import javax.swing.JOptionPane;
@@ -45,7 +44,7 @@ public class Agenda {
 
         for (int i = 0; i < contatos.size(); i++) {
             if (contatos.get(i).getNome().equals(nome)) {
-                JOptionPane.showMessageDialog(null, contatos.get(i));
+                JOptionPane.showMessageDialog(null, contatos.get(i).consulta());
             }
         }
     }
