@@ -6,9 +6,9 @@ public class QuickSortTeste {
     public static void main(String args[])
     {
         Random random = new Random();
-        IQuickSort teste1 = new IQuickSort();
-        IQuickSort teste2 = new IQuickSort();
-        IQuickSort teste3 = new IQuickSort();
+        InterativeQuickSort teste1 = new InterativeQuickSort();
+        InterativeQuickSort teste2 = new InterativeQuickSort();
+        InterativeQuickSort teste3 = new InterativeQuickSort();
         int vetor1[] = new int[100];
         int vetor2[] = new int[1000];
         int vetor3[] = new int[10000];
@@ -40,7 +40,7 @@ public class QuickSortTeste {
             vetor3[i] = random.nextInt(1000);
        }
 
-        System.out.println("\n\n\nVetor de 1000 elementos:\n");
+        System.out.println("\n\n\nVetor de 10000 elementos:\n");
         teste3.QuickSort(vetor3, 0, vetor3.length - 1);
         teste3.printvetor(vetor3, vetor3.length);
         System.out.println("\n\nO método foi executado em " + (System.currentTimeMillis() - tempoInicial3) + " ms.");

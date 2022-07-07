@@ -1,5 +1,6 @@
 
-public class IQuickSort {
+public class InterativeQuickSort {
+  
     void trocar(int vetor[], int i, int j)
     {
      int t = vetor[i];
