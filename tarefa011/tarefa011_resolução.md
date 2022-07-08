@@ -48,7 +48,6 @@ public class Usuario {
     if (!ValidateCpf(cpf))
       throw new ArgumentException("Cpf inválido!");
       
-    // ...
   }
 }
 ~~~
